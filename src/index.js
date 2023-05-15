@@ -110,6 +110,5 @@ function showPhotoCards(photos) {
 loadMoreBtn.addEventListener('click', event => {
   event.preventDefault();
   page++;
-
   loadPhotos();
 });
